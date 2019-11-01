@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    white-space: normal;
+    box-sizing: border-box;
+}
+
+
+
+/* --Estilos Header-- */
+
+.header{
+    height: 783px;
+    padding: 10px;   
+}
+.background {
+    width: 100%;
+    background-image: url(../img/Fondo1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+.conteiner-logomenu{
+    /* background: goldenrod; */
+    height: 12%;
+    
+}
+
+.conteiner-logo, .conteiner-nav {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1.8% 20px 0;
+}
+
+.conteiner-nav{
+    position: absolute;/*Le doy display absolute para usar left y posicionarlo hacia la derecha*/
+    right:0;
+    
+}
+nav{
+    margin-top: 14px;/*Al elemento nav le doy margin-top para que este alineado con el logo*/
+}
+
+.conteiner-nav li {
+    display: inline-block;
+    color: white;
+    padding: 10px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.conteiner-titulo{
+    width: 50%;
+    margin: 14.4% auto 50px;
+    position: relative;
+}
+.titulo{
+    margin: auto;
+    width: 58%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.conteiner-titulo:before {
+    position: absolute;
+    bottom: -25px;
+    left: 45%;
+    width: 10%;
+    height: 1.5px;
+    background: white;
+    content: '';
+}
+
+.conteiner-parrafoprincipal {
+    width: 50%;
+    margin: auto auto 0px;
+    height: 369px;
+
+}
+
+.parrafoprincipal{
+    width: 60%;
+    margin: auto;
+    color: rgba(255, 255, 249, 0.7);
+    text-align: center;
+    padding: 20px;
+    /* background-color: rgba(255, 143, 143, 0.1);
+    border-radius: 7px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+
+/* --Estilos Main Seccion Reservas-- */
+
+/* .conteiner-reservasaa{
+    width: 50%;
+    padding: 150px 100px;
+    display: inline-block;
+    background: sandybrown;
+    word-break: break-all;
+} */
+
+.conteiner-reservasbb, .conteiner-reservasaa, .ubicados, .contacto{
+    width:50%;
+    box-sizing: border-box;
+    display: inline-block;
+    background: sandybrown;
+    
+    padding: 140px 140px;
+    /* flex: 1; */
+    
+    
+}
+.conteiner-reservasaa p, .conteiner-reservasbb p {
+    margin: 10px 5px;
+}
+
+.conteiner-reservasaa, .ubicados{
+    background-color: #d2393c;
+    color: #ded6bf;
+}
+.conteiner-reservasbb, .contacto{
+    background-color: #ded6bf;
+    color: #d2393c;
+}
+
+.conteiner-reservas{
+    width: 100%;
+    /* display: flex; */
+    
+    
+
+}
+
+.conteiner-reservasbb > p:first-child, .conteiner-reservasaa > p:first-child, .contacto > p:first-child, .ubicados > p:first-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-bottom: 19px;
+    padding: 5px;
+    
+}
+.conteiner-reservas  p, .contacto p, .ubicados p{
+    text-align: center;
+}
+
+
+/* --Estilos Aplicados a la Seccion Productos-- */
+
+.conteiner-productos {
+    width: 100%;
+    background-image: url(../img/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 90px;
+    
+    
+}
+
+.conteiner-titulosecundario {
+    margin: 30px auto 20px;
+    width: 50%;
+    padding: 95px 40px 20px;
+    position: relative;
+}
+
+.conteiner-titulosecundario .titulosecundario {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.titulosecundario:before {
+    position: absolute;
+    bottom: 1px;
+    left: 45%;
+    width: 13%;
+    height: 1.8px;
+    background: white;
+    content: '';
+}
+
+.parrafosecundario {
+    width: 35%;
+    margin: auto auto 20px;
+    color: white;
+    text-align: center;
+}
+
+.productsbutton {
+    width: 50%;
+    text-align: center;
+    margin: 60px auto 80px;
+   
+}
+
+.productsbutton a {
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border: 2.5px solid white;
+}
+
+
+
+/* --Estilos Aplicados a la Seccion Ofertas*/
+
+.container-ofertas {
+    /* display: flex; */
+    width: 100%;
+    flex-flow: wrap;
+    background-color: #fafafa;
+    padding: 80px 20px;
+    margin: auto auto;
+}
+
+.container-blockoferta {
+    width: 80%;
+    margin: auto;
+}
+
+.blockoferta {
+    width: 50%;
+    padding: 20px;
+    height: 50%;
+    box-sizing: border-box ;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.blockoferta .img {
+    display: inline-block;
+    width: 16%;
+    position: absolute;
+    top: 80px;
+    left: -15px;
+
+}
+
+.blockoferta div.text {
+    display: inline-block;
+    width: 70%;
+    padding: 20px;
+    margin-left: 80px;
+    
+
+}
+
+.text p:first-child {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c3c3b;
+}
+
+.text > p {
+    color: gray;
+}
+
+
+
+
+
+.footer {
+    background-color: #251d1b;
+    width: 100%;
+    padding: 40px 10px;
+}
+
+.footer > p {
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
